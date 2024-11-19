@@ -1,4 +1,4 @@
-# Cat-logo-de-livros
+# Catalogo-de-livros
 Projeto desenvolvido em C para obtenção de nota da disciplina Algoritmo e Estrutura de dados.
 O objetivo é a criação de um catálogo de livros onde o usuário pode interagir de acordo com as opções apresentadas no menu.
 
