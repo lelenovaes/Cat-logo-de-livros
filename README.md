@@ -45,7 +45,10 @@ Ao escolher remover um título do catálogo o usuário o informa e ele só será
 
 Ao escolher a última opção do menu toda a interação feita antes será salva no arquivo CSV, se foi adicionado um livro no terminal ele aparecerá no arquivo, se removido algum título ao salvar e sair ele terá sido removido do arquivo... 
 
-Estruturas de Dados Utilizadas
+
+
+Estruturas de Dados Utilizadas:
+
 •	Estrutura Livro: Representa cada livro com os atributos:
 o	titulo: O título do livro.
 o	autor: O autor do livro.
