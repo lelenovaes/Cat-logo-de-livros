@@ -48,6 +48,7 @@ Ao escolher a última opção do menu toda a interação feita antes será salva
 
 
 Estruturas de Dados Utilizadas:
+O código utiliza a estrutura de Fila com lista encadeada.
 
 •	Estrutura Livro: Representa cada livro com os atributos:
 o	titulo: O título do livro.
@@ -56,7 +57,7 @@ o	ano: O ano de lançamento.
 o	genero: O gênero do livro.
 o	prox: Um ponteiro para o próximo livro na lista.
 
-•	Estrutura tfila: Representa a fila de livros com:
+•	Estrutura Fila: Representa a fila de livros com:
 o	inicio: Ponteiro para o início da fila.
 o	fim: Ponteiro para o fim da fila.
 
