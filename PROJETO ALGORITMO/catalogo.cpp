@@ -17,7 +17,7 @@ typedef struct Livro {
 // --------------------------------------------------------------------------------------------
 
 // Estrutura da fila de livros
-typedef struct { // typedef --> cria um novo nome para um tipo de dado existente.
+typedef struct { 
     Livro* inicio; 
     Livro* fim;    
 } Fila;
@@ -187,9 +187,11 @@ void salvarLivrosEmArquivo(Fila fila, const char* nomeArquivo) {
     printf("Catálogo salvo no arquivo %s.\n", nomeArquivo);
 }
 
+
 // --------------------------------------------------------------------------------------------
 
 int main() {
+	
     setlocale(LC_ALL, "Portuguese");
     Fila catalogo; // Declara a fila de livros em "catalogo' 
     inicializarFila(&catalogo); // Inicializa a fila de livros
@@ -208,6 +210,7 @@ int main() {
         printf("3. Buscar Livro por título, autor ou gênero\n");
         printf("4. Remover Livro\n");
         printf("5. Salvar e sair\n");
+
         printf("\nEscolha a opção que deseja executar: ");
         scanf("%d", &opcao);
         getchar(); // Limpa o buffer de entrada
@@ -270,7 +273,7 @@ int main() {
                 salvarLivrosEmArquivo(catalogo, nomeArquivo);
                 printf("Saindo...\n");
                 break;
-
+                
 // --------------------------------------------------------------------------------------------
 
             default:
